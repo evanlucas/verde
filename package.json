@@ -9,9 +9,6 @@
     "mocha": "~1.20.1",
     "nopt": "~3.0.0"
   },
-  "devDependencies": {
-    "should": "~3.3.1"
-  },
   "bin": {
     "verde": "./bin/cmd.js"
   },
