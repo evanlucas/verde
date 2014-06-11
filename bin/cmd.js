@@ -11,12 +11,14 @@ var fs = require('fs')
                 , version: Boolean
                 , reporter: String
                 , color: Boolean
+                , require: Array
                 }
   , shortHand = { d: ['--dir']
                 , f: ['--file']
                 , h: ['--help']
                 , v: ['--version']
-                , r: ['--reporter']
+                , R: ['--reporter']
+                , r: ['--require']
                 , c: ['--color']
                 }
   , parsed = nopt(knownOpts, shortHand)
