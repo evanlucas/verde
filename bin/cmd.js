@@ -20,6 +20,7 @@ var fs = require('fs')
                 , R: ['--reporter']
                 , r: ['--require']
                 , c: ['--color']
+                , colors: ['--color']
                 }
   , parsed = nopt(knownOpts, shortHand)
   , util = require('util')
