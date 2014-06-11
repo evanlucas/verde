@@ -38,6 +38,9 @@ if (parsed.version) {
 
 parsed.dir = parsed.dir || process.cwd()
 parsed.color = parsed.hasOwnProperty('color') ? parsed.color : true
+if (parsed.argv.remain.length) {
+  parsed.options = parsed.argv.remain
+}
 verde = new verde(parsed)
 
 verde.on('test:start', function(filename) {
