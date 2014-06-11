@@ -1,0 +1,32 @@
+{
+  "name": "verde",
+  "version": "0.0.0",
+  "description": "Run multiple files through mocha",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "~0.4.0",
+    "mocha": "~1.20.1",
+    "nopt": "~3.0.0"
+  },
+  "devDependencies": {
+    "should": "~3.3.1"
+  },
+  "bin": {
+    "verde": "./bin/cmd.js"
+  },
+  "license": "MIT",
+  "keywords": [
+    "mocha",
+    "test",
+    "runner"
+  ],
+  "author": "Evan Lucas <evanlucas@me.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evanlucas/verde"
+  },
+  "homepage": "https://github.com/evanlucas/verde",
+  "bugs": {
+    "url": "https://github.com/evanlucas/verde/issues"
+  }
+}
