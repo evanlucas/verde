@@ -1,0 +1,12 @@
+verde - run multiple files with mocha
+
+  usage: verde [options]
+
+  options:
+    -h, --help                      show help and usage
+    -v, --version                   show version
+    -d, --dir <dir>                 set the test dir
+    -f, --file <file>               run the given files through mocha
+    -R, --reporter <reporter>       set the reporter
+    -r, --require <package>         require the given _package_
+    -c, --colors                    use colors
