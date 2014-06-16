@@ -10,3 +10,4 @@ verde - run multiple files with mocha
     -R, --reporter <reporter>       set the reporter
     -r, --require <package>         require the given _package_
     -c, --colors                    use colors
+    --recursive                     run all recursively
