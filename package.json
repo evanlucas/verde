@@ -1,6 +1,6 @@
 {
   "name": "verde",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Run multiple files through mocha",
   "main": "index.js",
   "dependencies": {
