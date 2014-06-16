@@ -30,6 +30,7 @@ _opts_ can have the following keys:
 - `dir` {String} the directory to read (defaults to `process.cwd()`)
 - `files` {Array} the files to run (defaults to all `.js` files in `opts.dir`)
 - `addons` {Array} additional options to pass to mocha
+- `recursive` {Boolean} recursively walk directories to run tests (default `false`)
 
 ### verde.run()
 
@@ -66,6 +67,8 @@ Emitted when all files have been run through mocha
 
 MIT
 
-## Author
+## Contributors
 
-Evan Lucas
+Author: [https://github.com/evanlucas] Evan Lucas
+
+- [https://github.com/dejanr] Dejan Ranisavljevic
