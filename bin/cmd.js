@@ -12,6 +12,7 @@ var fs = require('fs')
                 , reporter: String
                 , color: Boolean
                 , require: Array
+                , recursive: Boolean
                 }
   , shortHand = { d: ['--dir']
                 , f: ['--file']
