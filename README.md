@@ -69,6 +69,6 @@ MIT
 
 ## Contributors
 
-Author: [https://github.com/evanlucas] Evan Lucas
+Author: [https://github.com/evanlucas](Evan Lucas)
 
-- [https://github.com/dejanr] Dejan Ranisavljevic
+- [https://github.com/dejanr](Dejan Ranisavljevic)
