@@ -48,7 +48,7 @@ verde.on('test:start', function(filename) {
   console.log('running suite %d of %d [%s]'
             , verde.suites - verde.files.length
             , verde.suites
-            , path.basename(filename))
+            , filename.replace(parsed.dir+'/', ''))
 })
 
 verde.on('done', function() {
@@ -77,7 +77,7 @@ verde.on('done', function() {
     console.log(line)
 
     suites.forEach(function(result) {
-      var res = path.basename(result)
+      var res = result.replace(parsed.dir+'/', '')
       if (verde.results[result]) {
         console.log(chalk.green('passed'), res)
       } else {
@@ -93,10 +93,11 @@ verde.on('done', function() {
     }
     console.log(line)
     suites.forEach(function(result) {
+      var res = result.replace(parsed.dir+'/', '')
       if (verde.results[result]) {
-        console.log('passed', path.basename(result))
+        console.log('passed', res)
       } else {
-        console.log('failed', path.basename(result))
+        console.log('failed', res)
       }
     })
   }
